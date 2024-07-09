@@ -96,3 +96,85 @@ header {
   width: 259.56px;
   height: 217.01px;
 }
+.herocenrerone {
+  background-image: url(assets/Group\ 3.png);
+  width: 480px;
+  height: 240px;
+  background-repeat: no-repeat;
+  display: inline;
+}
+.herocenrertwo h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+}
+.herocenrertwo p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  margin-top: 16px;
+}
+.herocenrertwo button {
+  width: 171px;
+  height: 47px;
+  border: 1px solid rgb(13, 19, 33);
+  background-color: #fff;
+  margin-top: 32px;
+}
+.herocenrertwo a {
+  color: rgb(13, 19, 33);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.herocenterfast {
+  margin: auto;
+  max-width: 946px;
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 128px;
+}
+.herotwo {
+  max-width: 946px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.herotwo button {
+  width: 171px;
+  height: 47px;
+  border: 1px solid rgb(13, 19, 33);
+  background-color: #fff;
+  margin-top: 32px;
+}
+.herotwo a {
+  color: rgb(13, 19, 33);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.herotwo h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+}
+.herotwo p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  margin-top: 16px;
+}
+.inspiration {
+  text-align: center;
+}
+.inspiration h1 {
+  margin-top: 180px;
+  font-size: 32px;
+  font-weight: 800;
+}
+.inspiration p {
+  margin-top: 14px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
