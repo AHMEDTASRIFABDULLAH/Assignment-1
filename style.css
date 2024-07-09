@@ -178,3 +178,30 @@ header {
   font-weight: 400;
   line-height: 26px;
 }
+.border-section {
+  max-width: 1140px;
+  height: 614px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  margin-top: 48px;
+}
+.youtube iframe {
+  border-radius: 16px;
+}
+.tr {
+  text-align: center;
+}
+.next-target h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 151px;
+}
+.next-target p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+}
