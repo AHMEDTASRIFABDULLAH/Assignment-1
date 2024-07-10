@@ -36,6 +36,7 @@ nav button {
   opacity: 0.8;
   background-color: #fff;
   border-radius: 8px;
+  cursor: pointer;
 }
 .banner {
   background-image: url(assets/Hero-bg.png);
@@ -71,14 +72,21 @@ nav button {
   font-size: 20px;
   font-weight: 600;
   border-radius: 8px;
+  cursor: pointer;
+}
+.mainchaild {
+  margin: 0 auto;
+  max-width: 1140px;
+  background-color: #fcfcfc;
 }
 .whydev {
   text-align: center;
   margin: auto;
   max-width: 946px;
+  padding-top: 80px;
+  margin-top: 74px;
 }
 .whydev h1 {
-  margin-top: 154px;
   font-size: 32px;
   font-weight: 800;
   color: rgb(13, 19, 33);
@@ -380,6 +388,7 @@ nav button {
   font-size: 16px;
   font-weight: 700;
   color: rgb(13, 19, 33);
+  margin-top: 40px;
 }
 .javascript a {
   display: flex;
