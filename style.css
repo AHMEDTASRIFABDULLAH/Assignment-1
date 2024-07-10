@@ -205,3 +205,29 @@ header {
   font-weight: 400;
   margin-top: 24px;
 }
+.codeh1 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 24px;
+}
+.codep {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.coding {
+  display: flex;
+  justify-content: space-between;
+}
+.html {
+  width: 284px;
+  height: 219px;
+}
+.css {
+  width: 284px;
+  height: 219px;
+}
+.javascript {
+  width: 284px;
+  height: 219px;
+}
