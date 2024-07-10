@@ -10,6 +10,29 @@ header {
   max-width: 1440px;
   margin: auto;
 }
+nav {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 166px 35px 150px;
+}
+nav h1 {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 33px;
+  color: rgb(13, 19, 33);
+}
+nav button {
+  border: 1px solid rgb(13, 19, 33);
+  width: 228px;
+  height: 58px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.8;
+  background-color: #fff;
+}
 .banner {
   background-image: url(assets/Hero-bg.png);
   max-width: 1440px;
@@ -25,7 +48,8 @@ header {
   margin-top: 32px;
   font-size: 48px;
   font-weight: 800;
-  color: black;
+  color: rgb(13, 19, 33);
+  line-height: 68px;
 }
 .content p {
   margin-top: 24px;
@@ -52,7 +76,7 @@ header {
   margin-top: 154px;
   font-size: 32px;
   font-weight: 800;
-  color: black;
+  color: rgb(13, 19, 33);
 }
 .whydev p {
   margin-top: 24px;
@@ -60,6 +84,7 @@ header {
   font-weight: 400;
   color: rgb(13, 19, 33);
   margin-bottom: 96px;
+  line-height: 26px;
 }
 .heroone {
   max-width: 946px;
@@ -71,12 +96,14 @@ header {
   font-size: 24px;
   font-weight: 700;
   color: rgba(13, 19, 33, 0.7);
+  line-height: 36px;
 }
 .oneleft p {
   font-size: 16px;
   font-weight: 400;
   color: rgb(13, 19, 33);
   margin-top: 16px;
+  line-height: 26px;
 }
 .oneleft button {
   width: 171px;
@@ -90,29 +117,42 @@ header {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
+  opacity: 0.7;
 }
 .onerightimg {
   background-image: url(assets/Layer_1.png);
   width: 259.56px;
   height: 217.01px;
 }
+.herocenter {
+  margin: auto;
+  max-width: 1440px;
+  margin-top: 80px;
+}
 .herocenrerone {
   background-image: url(assets/Group\ 3.png);
-  width: 480px;
-  height: 240px;
+  width: 223.8px;
+  height: 208.85px;
   background-repeat: no-repeat;
   display: inline;
+}
+.herocenrertwo {
+  width: 477px;
+  height: 219px;
+  margin-left: 48px;
 }
 .herocenrertwo h1 {
   font-size: 24px;
   font-weight: 700;
   color: rgba(13, 19, 33, 0.7);
+  line-height: 36px;
 }
 .herocenrertwo p {
   font-size: 16px;
   font-weight: 400;
   color: rgb(13, 19, 33);
   margin-top: 16px;
+  line-height: 26px;
 }
 .herocenrertwo button {
   width: 171px;
@@ -126,12 +166,13 @@ header {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
+  opacity: 0.7;
 }
 .herocenterfast {
   margin: auto;
   max-width: 946px;
   display: flex;
-  margin-top: 80px;
+  gap: 48.8;
   margin-bottom: 128px;
 }
 .herotwo {
@@ -152,17 +193,20 @@ header {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
+  opacity: 0.7;
 }
 .herotwo h1 {
   font-size: 24px;
   font-weight: 700;
   color: rgba(13, 19, 33, 0.7);
+  line-height: 36px;
 }
 .herotwo p {
   font-size: 16px;
   font-weight: 400;
   color: rgb(13, 19, 33);
   margin-top: 16px;
+  line-height: 26px;
 }
 .inspiration {
   text-align: center;
@@ -172,6 +216,7 @@ header {
   font-size: 32px;
   font-weight: 800;
   color: rgb(13, 19, 33);
+  line-height: 37px;
 }
 .inspiration p {
   margin-top: 14px;
@@ -344,13 +389,12 @@ header {
   margin: auto;
   max-width: 1140px;
 }
+
 .srimg {
   margin-top: 48px;
   height: 313px;
   background-image: url(assets/handshake.jpg);
   border-radius: 16px;
-  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
-    url(Email);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -364,7 +408,7 @@ header {
 .srimg p {
   font-size: 16px;
   color: rgb(255, 255, 255);
-  font-size: 400;
+  font-weight: 400;
   margin-top: 16px;
   margin-bottom: 24px;
 }
@@ -396,18 +440,18 @@ header {
   gap: 16px;
 }
 .imgbackround {
-  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), #0d1321);
 }
 footer {
-  width: 1440px;
+  max-width: 1440px;
   height: 100px;
   background-color: rgba(13, 19, 33, 0.03);
   margin-top: 80px;
 }
 .footertwo {
-  width: 1140px;
+  max-width: 1140px;
   height: 100px;
   margin: auto;
   display: flex;
